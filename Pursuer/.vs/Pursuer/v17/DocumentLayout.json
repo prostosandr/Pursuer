@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "F:\\Git\\Pursuer\\Pursuer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|f:\\git\\pursuer\\pursuer\\assets\\sctripts\\botraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|solutionrelative:assets\\sctripts\\botraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|f:\\git\\pursuer\\pursuer\\assets\\sctripts\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|solutionrelative:assets\\sctripts\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|f:\\git\\pursuer\\pursuer\\assets\\sctripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|solutionrelative:assets\\sctripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|F:\\Git\\Pursuer\\Pursuer\\assets\\sctripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|solutionrelative:assets\\sctripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|f:\\git\\pursuer\\pursuer\\assets\\sctripts\\botraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|solutionrelative:assets\\sctripts\\botraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|F:\\Git\\Pursuer\\Pursuer\\assets\\sctripts\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB3F813-3481-08D7-869F-5BF8EB322936}|Assembly-CSharp.csproj|solutionrelative:assets\\sctripts\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +30,60 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Sctripts\\Player.cs",
+              "ToolTip": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Sctripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:29:09.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InputReader.cs",
+              "DocumentMoniker": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\InputReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Sctripts\\InputReader.cs",
+              "ToolTip": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\InputReader.cs",
+              "RelativeToolTip": "Assets\\Sctripts\\InputReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:17:29.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BotRaycast.cs",
               "DocumentMoniker": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\BotRaycast.cs",
               "RelativeDocumentMoniker": "Assets\\Sctripts\\BotRaycast.cs",
               "ToolTip": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\BotRaycast.cs",
               "RelativeToolTip": "Assets\\Sctripts\\BotRaycast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T07:42:26.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bot.cs",
               "DocumentMoniker": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\Bot.cs",
               "RelativeDocumentMoniker": "Assets\\Sctripts\\Bot.cs",
               "ToolTip": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\Bot.cs",
               "RelativeToolTip": "Assets\\Sctripts\\Bot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T14:20:06.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Sctripts\\Player.cs",
-              "ToolTip": "F:\\Git\\Pursuer\\Pursuer\\Assets\\Sctripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Sctripts\\Player.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T13:29:09.829Z"
+              "WhenOpened": "2025-06-20T14:20:06.139Z"
             }
           ]
         }

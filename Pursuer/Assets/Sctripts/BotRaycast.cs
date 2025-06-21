@@ -9,9 +9,6 @@ public class BotRaycast : MonoBehaviour
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, _rayDistance))
-            return true;
-        else
-            return false;
+        return (Physics.Raycast(ray, out hit, _rayDistance));
     }
 }

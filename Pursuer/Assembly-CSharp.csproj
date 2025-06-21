@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Sctripts\BotRaycast.cs" />
     <Compile Include="Assets\Sctripts\Bot.cs" />
+    <Compile Include="Assets\Sctripts\InputReader.cs" />
     <Compile Include="Assets\Sctripts\Player.cs" />
   </ItemGroup>
   <ItemGroup>

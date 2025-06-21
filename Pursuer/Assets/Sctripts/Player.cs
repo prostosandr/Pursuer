@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(InputReader))]
 public class Player : MonoBehaviour
 {
     [SerializeField] private Camera _camera;
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour
 
     private Transform _trasform;
     private CharacterController _characterController;
+    private InputReader _inputReader;
 
     private Transform _cameraTransform;
     private float _cameraAngle;
@@ -21,6 +23,7 @@ public class Player : MonoBehaviour
     {
         _trasform = transform;
         _characterController = GetComponent<CharacterController>();
+        _inputReader = GetComponent<InputReader>();
 
         _cameraTransform = _camera.transform;
         _cameraAngle = _cameraTransform.localEulerAngles.x;
@@ -36,13 +39,13 @@ public class Player : MonoBehaviour
         Vector3 forward = Vector3.ProjectOnPlane(_cameraTransform.forward, Vector3.up).normalized;
         Vector3 right = Vector3.ProjectOnPlane(_cameraTransform.right, Vector3.up).normalized;
 
-        _cameraAngle -= Input.GetAxis("Mouse Y") * _verticalTurnSensitivity;
+        _cameraAngle -= _inputReader.GetMouseYAxis() * _verticalTurnSensitivity;
         _cameraAngle = Mathf.Clamp(_cameraAngle, _verticalMinAngle, _verticalMaxAngle);
         _cameraTransform.localEulerAngles = Vector3.right * _cameraAngle;
 
-        _trasform.Rotate(Vector3.up * _horizontalTurnSensitivity * Input.GetAxis("Mouse X"));
+        _trasform.Rotate(Vector3.up * _horizontalTurnSensitivity * _inputReader.GetMouseXAxis());
 
-        Vector3 playerSpeed = forward * Input.GetAxis("Vertical") * _speed + right * Input.GetAxis("Horizontal") * _strafeSpeed;
+        Vector3 playerSpeed = forward * _inputReader.GetVerticalAxis() * _speed + right * _inputReader.GetHorizontalAxis() * _strafeSpeed;
         playerSpeed *= Time.deltaTime;
 
         if (_characterController.isGrounded)

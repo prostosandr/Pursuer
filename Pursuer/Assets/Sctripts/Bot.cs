@@ -30,7 +30,7 @@ public class Bot : MonoBehaviour
 
     private void Move()
     {
-        if (Vector3.Distance(_transform.position, _playerTransform.position) >= _minDistance)
+        if ((_playerTransform.position - _transform.position).sqrMagnitude >= _minDistance)
         {
             Vector3 playerPosition = _playerTransform.position;
             playerPosition.y = _transform.position.y;
